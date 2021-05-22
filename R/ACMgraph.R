@@ -12,8 +12,7 @@ ACMgraph <- function(data){
 
   Nombres <- data.frame(AC.SUM1$name)
   xs <- str_split(Nombres$AC.SUM1.name, ":")
-  length(xs)
-  XSDF <- as.data.frame(xs[1:55])
+  XSDF <- as.data.frame(xs[1:length(xs)])
   XSDF_t <- as.data.frame(t(XSDF))
   Nombres <- XSDF_t$V1
   Nombrecorto <- XSDF_t$V2
