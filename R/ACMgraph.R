@@ -1,5 +1,5 @@
 
-ACMgraph <- function(data){
+ACMgraph <- function(data, title=NULL){
   require(ca)
   require(readr)
   require(stringr)
@@ -52,6 +52,7 @@ ACMgraph <- function(data){
       text = "",
       href = ""
     )%>%
-    hc_subtitle(text="Análisis de correspondencia múltiple")
+    hc_subtitle(text="Análisis de correspondencia múltiple")%>%
+    hc_title(text=title)
 
 }

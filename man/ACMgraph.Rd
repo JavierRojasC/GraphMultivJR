@@ -1,12 +1,14 @@
 \name{ACMgraph}
 \alias{ACMgraph}
-\title{Multiple Correspondence Analysis Grapg}
+\title{Multiple Correspondence Analysis Graph}
 \usage{
 ACMgraph()
 }
 \description{
-ACMgraph
+ACMgraph()
+data: data frame
+title: title of graph (Character)
 }
 \examples{
-ACMgraph()
+ACMgraph(Data, title="Title")
 }

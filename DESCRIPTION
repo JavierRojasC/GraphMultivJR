@@ -1,11 +1,10 @@
 Package: GraphMultivJR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: GraphMultivJR 
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Mauricio Javier Rojas Campuzano
+Maintainer: Mauricio Javier Rojas Campuzano <maujroja@espol.edu.ec>
+Description: Package for displaying multivariate graphs.
+License: mjrc1
 Encoding: UTF-8
 LazyData: true
