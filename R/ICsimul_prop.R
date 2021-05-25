@@ -1,4 +1,4 @@
-ICsimulator <- function(Nsim, n, p,conflevel=0.95){
+ICsimul_prop <- function(Nsim, n, p,conflevel=0.95){
   int <- matrix(0, Nsim,3)
   color2 <- c()
   color3 <- c()
