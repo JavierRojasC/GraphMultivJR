@@ -21,9 +21,6 @@ ACMgraph <- function(data, title=NULL){
 
 
   highchart()%>%
-    hc_title(text="")%>%
-    hc_subtitle(text="Análisis de correspondencia múltiple")%>%
-    hc_subtitle(text="")%>%
     hc_add_series(Coord, type='scatter', hcaes(x=AC.SUM1...5., y=AC.SUM1...8., name=Nombrecorto, group=Nombres),
                   dataLabels=list(format="{point.name}",enabled=TRUE),
                   tooltip = list(pointFormat = "{point.name}"))%>%
