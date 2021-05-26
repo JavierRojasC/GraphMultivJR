@@ -5,9 +5,9 @@
 cor_graph()
 }
 \description{
-ICsimul_prop()\
-\item{data: Matrix of data.}
-\item{title: Title of graph (Character)}
+ICsimul_prop() <br />
+data: Matrix of data. <br />
+title: Title of graph (Character)
 }
 \examples{
 cor_graph(data, title='Title')
