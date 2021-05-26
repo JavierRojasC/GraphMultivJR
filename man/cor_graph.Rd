@@ -5,8 +5,8 @@
 cor_graph()
 }
 \description{
-ICsimul_prop()
-data: Matrix of data.
+ICsimul_prop()\n
+data: Matrix of data.\n
 title: Title of graph
 }
 \examples{
