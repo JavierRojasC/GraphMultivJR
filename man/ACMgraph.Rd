@@ -5,9 +5,8 @@
 ACMgraph()
 }
 \description{
-ACMgraph()
-\item{data: data frame}
-\item{title: title of graph (Character)}
+\preformatted{data: data frame}
+\preformatted{title: title of graph (Character)}
 }
 \examples{
 ACMgraph(Data, title="Title")

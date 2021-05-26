@@ -5,9 +5,10 @@
 cor_graph()
 }
 \description{
-ICsimul_prop()\n
-data: Matrix of data.\n
-title: Title of graph
+\bold{Arguments}
+
+\preformatted{data: Matrix of data.}
+\preformatted{title: Title of graph.}
 }
 \examples{
 cor_graph(data, title='Title')
